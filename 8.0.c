@@ -5,9 +5,9 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	int ct;
 	char symbol;
-	printf("Ввести кол-во символов:");
+	printf("Р’РІРµСЃС‚Рё РєРѕР»-РІРѕ СЃРёРјРІРѕР»РѕРІ:");
 	scanf_s("%d", &ct);
-	printf("Ввести символ для печати:");
+	printf("Р’РІРµСЃС‚Рё СЃРёРјРІРѕР» РґР»СЏ РїРµС‡Р°С‚Рё:");
 	scanf_s("%c", &symbol);
 	for (int start = 1; start <= ct; start++)
 	{
